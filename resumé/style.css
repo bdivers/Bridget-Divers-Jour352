@@ -3,7 +3,7 @@
 /* text elements for whole webpage */
 /* the google font 'Open Sans' needs to be linked for it to show up */
 body {
-  font: 'Open Sans', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
