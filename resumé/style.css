@@ -64,7 +64,9 @@ div.date {
   padding: 0px;
   text-align: center;
 }
-
+ul.menu > li {
+  display: inline;
+}
 #degrees {
   margin-top: 5px;
   margin-bottom: 0px;
@@ -79,9 +81,26 @@ div.date {
   margin-right: 0px;
 }
 
+div#title {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
+div#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 /* elements for the title */
-title {
+/*title {
   text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e;
