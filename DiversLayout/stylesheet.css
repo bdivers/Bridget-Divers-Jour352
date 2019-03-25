@@ -1,0 +1,9 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.headline {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+}

@@ -1,0 +1,121 @@
+body {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 600px;
+}
+
+/*make the banner width 1500 instead of 1600 so it fits on the screen */
+img#banner {
+  height: auto;
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*styling my info section here*/
+div.menu {
+  margin-left: 34em;
+  margin-right: 30em;
+  padding: 20px;
+  color: #808080;
+  border-style: double;
+  border-color: #D43DB6;
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
+  border-top-right-radius: 5em;
+}
+
+/*center my email separately from the other elements */
+div.center {
+  margin-left: 5em;
+}
+
+/*center my links here*/
+div.center2 {
+  margin-left: 9em;
+}
+
+div.intro {
+  text-align: center;
+  border-style: double;
+  /*the radius feature curves the edges*/
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
+  border-top-right-radius: 5em;
+  color: #D43DB6;
+  border-color: #808080;
+  padding: 10px;
+  margin: 3em 18em;
+}
+
+/*styling all the sectionheader's here*/
+div.sectionheader {
+  text-align: center;
+  font-size: 2em;
+  /*make the section headers pink to have them stand out*/
+  color: #D43DB6;
+  border: double;
+  border-bottom-right-radius: 20em;
+  border-bottom-left-radius: 20em;
+  border-top-right-radius: 20em;
+  border-top-left-radius: 20em;
+  margin-top: 3em;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding-left: 8px;
+}
+
+/*styling the jobtitles here*/
+div.jobtitle {
+  color: #808080;
+  padding-right: 5em;
+  font-size: 22px;
+  margin-right: 50em;
+  margin-top: 8px;
+  margin-left: 25px;
+}
+
+div.info {
+  color: black;
+  padding-left: 5em;
+  padding-right: 15em;
+  font-size: 17px;
+}
+
+/*make the organizations stand out by making them pink*/
+div.organization {
+  color: #D43DB6;
+}
+
+/*make the dates italicized for a small design element*/
+div.date {
+  font-style: italic;
+}
+
+li#degrees {
+  color: black;
+  font-size: 17px;
+  margin-left: 32em;
+}
+
+li#degrees2 {
+  color: #808080;
+  font-size: 17px;
+  margin-left: 32em;
+}
+
+ul#do {
+  color: #808080;
+  font-size: 17px;
+  margin-left: 36em;
+  padding-top: 10px;
+}
+
+div.copyright {
+  text-align: center;
+  color: #808080;
+  padding-top: 15px;
+}
