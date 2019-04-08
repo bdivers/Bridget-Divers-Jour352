@@ -1,0 +1,49 @@
+h1 {
+  font-family: 'Bitter', serif;
+  font-size: 8em;
+  color: #B22222;
+  border: double;
+  padding: 10px;
+}
+ /*using serif and sans-serif fonts that compliment each other well*/
+h2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+h4 {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+h5 {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+p {
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 12px;
+}
+
+div#column {
+  column-count: 1;
+  text-align: center;
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+div#byline {
+  font-size: 18px;
+  color: #696969;
+}
+
+blockquote {
+  font-size: 3em;
+  color: #B22222;
+  font-family: 'Helvetica', Arial, sans-serif;
+  border: solid;
+  padding: 5px;
+}
