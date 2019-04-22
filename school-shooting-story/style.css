@@ -58,15 +58,19 @@ footer {
   text-align: center;
 }
 
-p{
- text-align:left;
- line-height:180%;
+.bg-dark {
+ background:#000 !important;
 }
 
-.red {
- color: #e0162b;
+ul.navbar-nav {
+ margin-left:50%;
 }
 
-.blue {
- color: #0052a5;
+.navbar {
+ font-family: 'Montserrat', sans-serif;
+
+}
+
+.redstar {
+  width: 15px;
 }
