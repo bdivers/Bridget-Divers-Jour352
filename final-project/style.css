@@ -1,5 +1,6 @@
 body {
-  font-family: 'PT Serif', serif;
+  font-family: 'Zilla Slab', serif;
+  font-size: 20px;
 }
 
 link {
@@ -15,51 +16,64 @@ a: visied {
   color: #999;
 }
 
+.campus {
+  width: 100%;
+}
+
+#opening {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 .headline {
-  font-size:3em;
-  text-align:center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-size:3.5em;
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  text-align: center;
+  bottom: 30px;
+  right: 2em;
 }
 
 .byline {
-  font-size: 1em;
-  text-align:center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  margin-left: 28em;
-  margin-right: 28em;
+  font-size: 1.5em;
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  bottom: 10px;
+  right: 3.5em;
+
 }
 
 #container {
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
 .intro-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.25em;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
   max-width: 800px;
-  margin-top: 25px;
+  margin-top: 40px;
   margin-bottom: 25px;
+  text-align: center;
+  border-style: double;
+  padding: 5px;
 }
 
+.lightgreen {
+  color: #32CD32;
+}
 .green {
   color: #008000;
-}
-figure {
-  text-align: center;
 }
 
 .footer {
   text-align: center;
   color: white;
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Dosis', sans-serif;
   height: 100px;
   padding: 25px;
 }
-
 
 p {
   text-align: left;
@@ -80,18 +94,10 @@ ul.navbar-nav {
 }
 
 .navbar {
- font-family: 'Montserrat', sans-serif;
+ font-family: 'Dosis', sans-serif;
 }
 
 .navbar-brand {
   color: white;
   font-size: 1.25em;
-}
-
-.chapter-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
-  font-weight: 700;
-  padding-top: 20px;
-  width: 100%;
 }
