@@ -95,15 +95,3 @@ ul.navbar-nav {
   padding-top: 20px;
   width: 100%;
 }
-
-.graphic-container h2 {
-  font-size: 2em;
-}
-.graphic-container {
- padding-top:30px;
- padding-bottom:30px;
- border-top:1px solid #cdcdcd;
- border-bottom:1px solid #cdcdcd;
- font-family: 'Montserrat', sans-serif;
- margin:0 auto;
-}
