@@ -115,7 +115,7 @@ ul.navbar-nav {
 }
 
 .navbar-brand {
-  color: white;
+  color: white !important;
   font-size: 1.25em;
 }
 

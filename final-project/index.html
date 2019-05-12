@@ -3,6 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="description" content="Sustainability at the University of Maryland">
   <meta name="author" content="Bridget Divers">
 
@@ -27,7 +28,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">A <span class="lightgreen">Green</span> UMD</a>
+    <a class="navbar-brand">A <span class="lightgreen">Green</span> UMD</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -75,9 +76,9 @@
       <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1k3KWCoCNWtAjlEaaIWC8i8NKEgNzgpilbtUfJKvJml0&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
 
-    <h2 class="lightgreen" href="#Sustainability">Sustainability</h2>
+    <h2 class="lightgreen">Sustainability</h2>
 
-      <p>All the work that has been put in to make changes that will save the planet has not gone unnoticed.</p>
+      <p>All the work that has been put in to make changes that will help save the planet has not gone unnoticed.</p>
 
     <center>
       <img src="Abbiepicture.jpg" alt="Picture of Abbie Malloy" width="70%">
@@ -89,7 +90,10 @@
       <p>Sustainability is a term that has become a staple when talking about being green. Malloy puts the term into a perspective that many can understand.</p>
 
     <blockquote class="pullquote">
-      <p>“You still have to live, you still have to use what you have to do what you need to do, but doing so in a thoughtful way, so that you’re not necessarily taking away and causing further damage to the planet.”</p>
+      <p>
+        <center>“You still have to live, you still have to use what you have to do what you need to do, but doing so in a <span class="lightgreen">thoughtful</span> way, so that you’re <span class="lightgreen">not</span> necessarily taking away and causing <span class="lightgreen">further damage</span> to the planet.”
+        </center>
+      </p>
     </blockquote>
 
       <p>The University of Maryland embodies this new ideal of sustainability and students like Malloy are taking advantage of all the green efforts being made.</p>
@@ -129,20 +133,15 @@
 
     <blockquote class="pullquote">
       <p>
-      “I think definitely the <span class="lightgreen">carbon neutrality goal</span> by 2050 is huge. That’s something that a lot of states are taking on, so I think it’s really important that we’re doing it as well,” Malloy said.</p>
+        <center>
+      “I think definitely the <span class="lightgreen">carbon neutrality goal</span> by 2050 is huge. That’s something that a lot of states are taking on, so I think it’s really <span class="lightgreeen">important</span> that we’re doing it as well,” Malloy said.
+        </center>
+      </p>
     </blockquote>
 
       <p>One of the states that has tasked itself with reaching carbon neutrality is the state of Maryland.</p>
 
       <p>Large goals, like the carbon neutrality goal, get more attention, but many students do not realize how intertwined their campus life is with sustainability.</p>
-
-      <!-- line chart container-->
-       <div class="graphic-container">
-         <h2>Examining the Carnage</h2>
-         <div id="killedByYearChart"></div>
-         <em>Source: Data collected by The Washington Post</em>
-       </div>
-       <!-- END line chart container-->
 
       <h2 class="lightgreen">Dining</h2>
 
@@ -153,7 +152,18 @@
 
       <p>Around 95% of freshman students live on-campus at the university meaning that they eat at the dining halls. Just by this action alone they are contributing to the campus’ sustainability effort because all the leftover food in the dining halls is composted.</p>
 
-      <p>The Office of Sustainability estimates that, “A total of 6.3 million pieces of waste has been eliminated through the use of reusable and washable products.”</p>
+      <!-- line chart container-->
+       <div class="graphic-container">
+         <h2>Composted Food Waste</h2>
+       </h3>Measured in Tons</h3>
+         <div id="wasteMinimization"></div>
+         <em>Source: Data collected by The University of Maryland Office of Sustainability</em>
+       </div>
+       <!-- END line chart container-->
+
+    <blockquote class="pullquote">
+      <p><center>The Office of Sustainability estimates that, “A total of <span class="lightgreen">6.3 million</span> pieces of waste has been eliminated through the use of <span class="lightgreen">reusable</span> and <span class="lightgreen">washable</span> products.”</center></p>
+    </blockquote>
 
       <p>However, students who do not eat at the dining halls on campus have to take it upon themselves to make sustainable decisions.</p>
 
@@ -201,25 +211,19 @@
   });
 
   //LINE CHART
-  var chart3 = c3.generate({
-    bindto: '#killedByYearChart',
-    data: {
-      xs: {
-         'Number Killed': 'year',
-         'Number of Injuries': 'year',
-         'Number of Incidents': 'year',
+  var chart = c3.generate({
+     bindto: '#wasteMinimization',
+     data: {
+       x: 'x',
+       columns: [
+         ['x', 2014, 2015, 2016, 2017],
+         ['Food Composted', 704, 452, 755, 948],
+       ]
      },
-     columns: [
-         ['year', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
-         ['Number Killed', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21],
-         ['Number of Injuries', 35, 3, 22, 7, 7, 9, 17, 16, 17, 5, 4, 6, 9, 8, 13, 14, 2, 18, 15, 44],
-         ['Number of Incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12]
-     ]
-    },
-    color: {
-      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
-    }
-  });
+     color: {
+       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+     }
+   });
   </script>
 
 
