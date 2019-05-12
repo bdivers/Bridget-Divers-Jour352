@@ -1,6 +1,6 @@
 body {
   font-family: 'Zilla Slab', serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 link {
@@ -16,7 +16,7 @@ a: visied {
   color: #999;
 }
 
-.campus {
+.picture {
   width: 100%;
 }
 
@@ -25,6 +25,7 @@ a: visied {
   text-align: center;
   color: white;
 }
+
 .headline {
   font-size:3.5em;
   font-family: 'Dosis', sans-serif;
@@ -44,8 +45,8 @@ a: visied {
 }
 
 #container {
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 12em;
+  margin-right: 12em;
 }
 
 .intro-text {
@@ -62,27 +63,43 @@ a: visied {
 .lightgreen {
   color: #32CD32;
 }
-.green {
-  color: #008000;
-}
 
 .footer {
   text-align: center;
   color: white;
   background-color: black;
   font-family: 'Dosis', sans-serif;
-  height: 100px;
-  padding: 25px;
-}
-
-p {
-  text-align: left;
-  line-height: 180%;
 }
 
 .footer-text{
   margin:0 auto;
-  text-align:center;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  line-height: 200%;
+}
+
+.caption {
+ width:100%;
+ max-width:900px;
+ margin:0 auto;
+ font-family: 'Zilla Slab', serif;
+ font-size: 15px;
+ color:#A9A9A9;
+ padding-bottom: 15px;
+ text-align: center;
+}
+
+.pullquote {
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.25em;
+  font-style: bold;
+  text-align: 0 auto;
+  border: double;
+  border-color: black;
+  padding: 10px;
 }
 
 .bg-dark {
@@ -90,7 +107,7 @@ p {
 }
 
 ul.navbar-nav {
- margin-left:50%;
+ margin-left:70%;
 }
 
 .navbar {
@@ -100,4 +117,11 @@ ul.navbar-nav {
 .navbar-brand {
   color: white;
   font-size: 1.25em;
+}
+
+.graphic-container {
+  text-align: center;
+  font-family: 'Zilla Slab', serif;
+  padding: 15px;
+  padding-bottom: 25px;
 }
