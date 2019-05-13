@@ -3,19 +3,6 @@ body {
   font-size: 22px;
 }
 
-link {
-  text-decoration: none;
-  color: #e0162b;
-}
-
-a: hover {
-  color: #0052a5;
-}
-
-a: visied {
-  color: #999;
-}
-
 .picture {
   width: 100%;
 }
